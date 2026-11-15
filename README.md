@@ -28,7 +28,7 @@ A home server project on a ThinkPad T440.
 ### Stage 2: Networking
 - [x] IP addresses, DHCP, DNS, ports: [docs/04-networking.md](docs/04-networking.md)
 - [x] Stable address on Wi-Fi [docs/05-reliable-access.md](docs/05-reliable-access.md)
-- [ ] Remote access with Tailscale
+- [x] Remote access with Tailscale
 
 ### Stage 3: Services
 - [ ] File server
@@ -53,6 +53,9 @@ images/    screenshots and diagrams
 
 ## Changelog
 
-- 2026-11-13: Project started. Baseline documented.
-- 2026-11-14: SSH key login and firewall set up.
+- 2026-11-15: Set up Tailscale for remote access without port forwarding.
 - 2026-11-15: Fixed Wi-Fi power saving delay, disabled suspend on lid close, hostname access working.
+- 2026-11-14: SSH key login and firewall set up.
+- 2026-11-13: Project started. Baseline documented.
+
+
