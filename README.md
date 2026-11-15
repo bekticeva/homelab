@@ -26,8 +26,8 @@ A home server project on a ThinkPad T440.
 - [x] SSH key authentication and firewall: [docs/03-ssh-keys-and-firewall.md](docs/03-ssh-keys-and-firewall.md)
 
 ### Stage 2: Networking
-- [ ] IP addresses, DHCP, DNS, ports: [docs/04-networking.md](docs/04-networking.md)
-- [ ] Stable address on Wi-Fi
+- [x] IP addresses, DHCP, DNS, ports: [docs/04-networking.md](docs/04-networking.md)
+- [x] Stable address on Wi-Fi [docs/05-reliable-access.md](docs/05-reliable-access.md)
 - [ ] Remote access with Tailscale
 
 ### Stage 3: Services
@@ -55,3 +55,4 @@ images/    screenshots and diagrams
 
 - 2026-11-13: Project started. Baseline documented.
 - 2026-11-14: SSH key login and firewall set up.
+- 2026-11-15: Fixed Wi-Fi power saving delay, disabled suspend on lid close, hostname access working.
